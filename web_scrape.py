@@ -125,7 +125,7 @@ class Scraper:
         
         self._response_Json_intancce.save_json(self._product)
 
-        print('salvo')
+        print('Código executado com sucesso')
 
 scrap = Scraper()
 scrap.main()
